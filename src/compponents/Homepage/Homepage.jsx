@@ -10,8 +10,22 @@ function Homepage() {
             </div>
             <div className='navlinks'>
                 <li><a href="">About Us</a></li>
-                <li><a href="">Experiences</a></li>
-                <li><a href="">Visits</a></li>
+                <div className='dropdown'>
+                    <li><a href="">Experiences</a></li>
+                    <div className='dropdown-content'>
+                        <a href="#">All in one</a>
+                        <a href="#">Culture</a>
+                        <a href="#">Luxury</a>
+                        <a href="#">WildLife </a>
+                    </div>
+                </div>
+                <div className='dropdown'>
+                    <li><a href="">Visits</a></li>
+                    <div className='dropdown-content'>
+                        <a href="#">One Country </a>
+                        <a href="#">Multi country </a>
+                    </div>
+                </div>
                 <li><a href="">Contacts</a></li>
                 <li><a href="">Sign Up</a></li>
                 <li><a href="">Login</a></li>
