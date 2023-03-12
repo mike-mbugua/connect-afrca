@@ -13,7 +13,7 @@ return(
         <Routes>
           <Route path={"/"} element={<Homepage/>}/>
           <Route path='/all-in-one' element={<All/>}/>
-          <Route path='/book' element={<Book/>}/>
+          <Route path='/booking' element={<Book/>}/>
         </Routes>
     </BrowserRouter>
     
