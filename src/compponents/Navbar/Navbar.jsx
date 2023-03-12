@@ -27,8 +27,8 @@ function Navbar() {
                     </div>
                 </div>
                 <li><a href="">Contacts</a></li>
-                <li><a href="">Sign Up</a></li>
-                <li><a href="">Login</a></li>
+                <li><a href="/booking">Book Visit</a></li>
+                <li><a href="">My Bookings</a></li>
             </div>
         </div>
         </div>
