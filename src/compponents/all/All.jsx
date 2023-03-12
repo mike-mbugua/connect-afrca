@@ -52,7 +52,30 @@ const All = () => {
                             <p>
                             Tanzania is a popular East African destination known for its wildlife, including the Serengeti National Park and Ngorongoro Crater, home to the Big Five and the Great Migration. It's also home to Africa's tallest mountain, Mount Kilimanjaro, and beautiful beaches in Zanzibar. Tanzania offers a rich culture and history with over 120 ethnic groups, and luxurious lodges such as Singita Grumeti and &Beyond.
                             </p>
-                    </div><div className="card1">
+                    </div>
+                    
+                    
+                    <div className="card1">
+                        <div className='all-carousel'>
+                            <Carousel
+                            autoPlay
+                            infiniteLoop
+                            interval={5000}
+                            showArrows
+                            showThumbs
+                            >
+                                <img src={Lion2} height="300"  alt="" />
+                                <img src={KenyaL} height="300" alt="" />
+                                <img src={KenyaL2} height="300" alt="" />
+                                <img src={Culture1} height="300" alt="" />
+                            </Carousel>
+                        </div>
+                            <h3>Kenya</h3>
+                            Kenya is a top tourist destination in East Africa, boasting stunning wildlife including the Big Five, unique cultures of over 40 ethnic groups, and luxurious accommodations. Popular attractions include the Maasai Mara, Amboseli, and Tsavo national parks, cultural experiences such as visiting Maasai villages, and luxurious lodges such as Giraffe Manor and Angama Mara.
+                    </div>
+
+
+                    <div className="card1">
                     <div className='all-carousel'>
                     <Carousel
                     autoPlay
@@ -71,7 +94,55 @@ const All = () => {
                             Rwanda, known as the "Land of a Thousand Hills," is a top East African destination for gorilla trekking in Volcanoes National Park. It offers breathtaking scenery, including Lake Kivu and Nyungwe Forest, and unique cultural experiences such as visiting the Iby'Iwacu Cultural Village. Rwanda has luxurious lodges like Bisate Lodge and One&Only Nyungwe House, and is a safe and stable country to visit.
                     </div>
                 </div>
+
+
+                
+
+
+
+
                 <div className="cards">
+                <div className="card1">
+                    <div className='all-carousel'>
+                    <Carousel
+                    autoPlay
+                    infiniteLoop
+                    interval={5000}
+                    showArrows
+                    showThumbs
+                    >
+                        <img src={Tanzania1} alt="" height="300"  />
+                        <img src={Tanzania2} height="300" alt="" />
+                        <img src={KenyaL2} height="300" alt="" />
+                        <img src={Culture1} height="300" alt="" />
+                    </Carousel>
+                    </div>
+                            <h3 className='country'>Tanzania</h3>
+                            <p>
+                            Tanzania is a popular East African destination known for its wildlife, including the Serengeti National Park and Ngorongoro Crater, home to the Big Five and the Great Migration. It's also home to Africa's tallest mountain, Mount Kilimanjaro, and beautiful beaches in Zanzibar. Tanzania offers a rich culture and history with over 120 ethnic groups, and luxurious lodges such as Singita Grumeti and &Beyond.
+                            </p>
+                    </div>
+                    
+                    
+                    <div className="card1">
+                        <div className='all-carousel'>
+                            <Carousel
+                            autoPlay
+                            infiniteLoop
+                            interval={5000}
+                            showArrows
+                            showThumbs
+                            >
+                                <img src={Lion2} height="300"  alt="" />
+                                <img src={KenyaL} height="300" alt="" />
+                                <img src={KenyaL2} height="300" alt="" />
+                                <img src={Culture1} height="300" alt="" />
+                            </Carousel>
+                        </div>
+                            <h3>Kenya</h3>
+                            Kenya is a top tourist destination in East Africa, boasting stunning wildlife including the Big Five, unique cultures of over 40 ethnic groups, and luxurious accommodations. Popular attractions include the Maasai Mara, Amboseli, and Tsavo national parks, cultural experiences such as visiting Maasai villages, and luxurious lodges such as Giraffe Manor and Angama Mara.
+                    </div>
+
                 <div className="card1">
                     <div className='all-carousel'>
                     <Carousel
@@ -89,24 +160,10 @@ const All = () => {
                     </div>
                             <h3>Uganda</h3>
                             Uganda, the "Pearl of Africa," offers unique gorilla trekking and chimpanzee tracking experiences, beautiful national parks like Murchison Falls and Queen Elizabeth, cultural experiences with over 50 ethnic groups, and luxurious accommodations such as Baker's Lodge and Sanctuary Gorilla Forest Camp. It's also a popular destination for birdwatching and outdoor adventures on the Nile River.
-                    </div><div className="card1">
-                    <div className='all-carousel'>
-                    <Carousel
-                    autoPlay
-                    infiniteLoop
-                    interval={5000}
-                    showArrows
-                    showThumbs
-                    >
-                        <img src={Lion2} height="300"  alt="" />
-                        <img src={KenyaL} height="300" alt="" />
-                        <img src={KenyaL2} height="300" alt="" />
-                        <img src={Culture1} height="300" alt="" />
-                    </Carousel>
                     </div>
-                            <h3>Kenya</h3>
-                            Kenya is a top tourist destination in East Africa, boasting stunning wildlife including the Big Five, unique cultures of over 40 ethnic groups, and luxurious accommodations. Popular attractions include the Maasai Mara, Amboseli, and Tsavo national parks, cultural experiences such as visiting Maasai villages, and luxurious lodges such as Giraffe Manor and Angama Mara.
-                    </div>
+                    
+                    
+                    
                 </div>
         </div>
     )
