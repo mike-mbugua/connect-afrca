@@ -28,7 +28,7 @@ function Navbar() {
                 </div>
                 <li><a href="">Contacts</a></li>
                 <li><a href="/booking">Book Visit</a></li>
-                <li><a href="">My Bookings</a></li>
+                <li><a href="/mybookings">My Bookings</a></li>
             </div>
         </div>
         </div>
