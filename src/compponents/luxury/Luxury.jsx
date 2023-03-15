@@ -10,6 +10,7 @@ import Tanzania1 from './../../images/Tanzania1.jpg'
 import Tanzania2 from './../../images/Tanzania2.jpg'
 import Uganda2 from './../../images/Uganda2.jpg'
 import KenyaL2 from './../../images/KenyaL2.jpg'
+import Footer from '../footer/Footer'
 
 function Luxury() {
 return (
@@ -209,6 +210,7 @@ return (
         list7={'wifi'}
         list8={'wifi'}/>
         
+        <Footer/>
     </div>
 )
 }
