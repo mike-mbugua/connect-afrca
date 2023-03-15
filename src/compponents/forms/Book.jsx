@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../footer/Footer'
 import './Book.css'
 function Book() {
 return (
@@ -41,6 +42,7 @@ return (
             <button className='book-btn'>Submit</button>
         </form>
         </div>
+        <Footer/>
     </div>
 )
 }

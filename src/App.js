@@ -8,6 +8,7 @@ import Book from './compponents/forms/Book';
 import ViewBooking from './compponents/forms/ViewBooking';
 import Homepage from './compponents/Homepage/Homepage';
 import Luxury from './compponents/luxury/Luxury';
+import Wildlife from './compponents/Wildlife/Wildlife';
 
 
 function App() {
@@ -22,7 +23,9 @@ return(
           <Route path='/luxury' element={<Luxury/>}/>
           <Route path='/card' element={<Card/>}/>
           <Route path='/culture' element={<Culture/>}/>
+          <Route path='/wildlife' element={<Wildlife/>}/>
         </Routes>
+        
     </BrowserRouter>
     
     

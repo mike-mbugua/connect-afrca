@@ -1,5 +1,5 @@
-.culture-nav{
-    background-image: url("./../../images/Culture254.webp  ");
+.wildlife-nav{
+    background-image: url("./../../images/Elephant254.jpg  ");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7,5 +7,6 @@
     height: 50vh;
     z-index: 1;
     border-radius: 1vh;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+
 }

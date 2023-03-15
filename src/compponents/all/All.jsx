@@ -13,6 +13,7 @@ import Tanzania2 from '../../images/Tanzania2.jpg'
 import Tanzania1 from '../../images/Tanzania1.jpg'
 import Rwanda1 from '../../images/Rwanda1.jpg'
 import Rwanda2 from '../../images/Rwanda2.jpg'
+import Footer from '../footer/Footer';
 
 
 const All = () => {
@@ -165,6 +166,7 @@ const All = () => {
                     
                     
                 </div>
+                <Footer/>
         </div>
     )
 }

@@ -16,7 +16,7 @@ function Navbar() {
                         <a href="/all-in-one">All in one</a>
                         <a href="/culture">Culture</a>
                         <a href="/luxury">Luxury</a>
-                        <a href="#">WildLife </a>
+                        <a href="/wildlife">WildLife </a>
                     </div>
                 </div>
                 <div className='dropdown'>

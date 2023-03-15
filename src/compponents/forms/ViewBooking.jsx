@@ -1,6 +1,7 @@
 import React from 'react'
 import './ViewBooking.css'
 import Logo from './../../images/Logo.png'
+import Footer from '../footer/Footer'
 function ViewBooking() {
 return (
     <div className='mybooking-container'>
@@ -19,6 +20,7 @@ return (
                 <p>Have not booked yet  ?<a href="/booking">click here</a></p>
             </form>
         </div>
+        <Footer/>
     </div>
 )
 }
