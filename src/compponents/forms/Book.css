@@ -84,7 +84,7 @@ textarea::placeholder{
     font-size: small;
     font-style: italic;
 }
-button{
+.book-btn{
     margin-top: 50px;
     padding: 15px 30px;
     border-radius: 1vh;
@@ -94,7 +94,7 @@ button{
     font-size: large;
     cursor: pointer;
 }
-button:hover{
+.book-btn:hover{
     border: 1px solid grey;
     background-color: green;
 }

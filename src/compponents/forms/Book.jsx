@@ -38,7 +38,7 @@ return (
             <input type="date" />
             <label htmlFor="">Secret Code</label>
             <input type="password"  placeholder=' Do not Share it with anyone'/>
-            <button>Submit</button>
+            <button className='book-btn'>Submit</button>
         </form>
         </div>
     </div>

@@ -14,8 +14,8 @@ function Navbar() {
                     <li><a href="">Experiences</a></li>
                     <div className='dropdown-content'>
                         <a href="/all-in-one">All in one</a>
-                        <a href="#">Culture</a>
-                        <a href="#">Luxury</a>
+                        <a href="/culture">Culture</a>
+                        <a href="/luxury">Luxury</a>
                         <a href="#">WildLife </a>
                     </div>
                 </div>
