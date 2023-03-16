@@ -17,7 +17,6 @@ return(
   <div>
     <BrowserRouter>
         <Routes>
-          <Route path='/navbar' element={<Navbar/>}/>
           <Route path={"/"} element={<Homepage/>}/>
           <Route path='/all-in-one' element={<All/>}/>
           <Route path='/booking' element={<Book/>}/>

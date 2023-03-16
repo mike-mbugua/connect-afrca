@@ -17,7 +17,7 @@ function Navbar() {
                 <a href="">Visits</a>
                 <a href="">Contacts</a>
                 <a href="">Book Visit</a>
-                <a href="">My Bookings</a>
+                <a href="">Bookings</a>
                 <FaTimes onClick={showNavbar} className='nav-btn nav-close-btn'/>
             </nav>
             <FaBars onClick={showNavbar} className='nav-btn'/>

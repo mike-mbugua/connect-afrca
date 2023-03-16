@@ -50,3 +50,25 @@ a:hover{
 .footer-center div{
     margin: 10px;
 }
+@media only screen and (max-width: 767px){
+    .footer{
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        margin: 20px;
+        border-bottom-right-radius:2vh ;
+        border-bottom-left-radius:2vh ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: black;
+    }
+    .footer .footer-left,.footer-center,.footer-right{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+}
