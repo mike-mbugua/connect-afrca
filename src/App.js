@@ -8,6 +8,7 @@ import Book from './compponents/forms/Book';
 import ViewBooking from './compponents/forms/ViewBooking';
 import Homepage from './compponents/Homepage/Homepage';
 import Luxury from './compponents/luxury/Luxury';
+import Navbar from './compponents/Navbar/Navbar';
 import Wildlife from './compponents/Wildlife/Wildlife';
 
 
@@ -16,6 +17,7 @@ return(
   <div>
     <BrowserRouter>
         <Routes>
+          <Route path='/navbar' element={<Navbar/>}/>
           <Route path={"/"} element={<Homepage/>}/>
           <Route path='/all-in-one' element={<All/>}/>
           <Route path='/booking' element={<Book/>}/>
